@@ -17,7 +17,9 @@ namespace HarmonicNumber_Workshop
             while(number == 0)
             {
                 Console.WriteLine("Please enter a number which is not zero");
-            }   number = Convert.ToInt32(Console.ReadLine());
+                break;
+            }  
+            number = Convert.ToInt32(Console.ReadLine());
 
             for (float i = 1; i <= number; i++)
             {
